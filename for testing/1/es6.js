@@ -224,6 +224,9 @@ boxes6.forEach(el => el.style.backgroundColor = 'blue');
 
 const child = [15, 19, 18, 11, 21, 23];
 
+
+
+=======
 // const isChild = child.map(function(el) {
 // 		return el >= 19;
 // });
@@ -235,9 +238,7 @@ const child = [15, 19, 18, 11, 21, 23];
 
 console.log(child.findIndex(cur => cur >= 19));
 
+
 }
-
-
-
 
 
