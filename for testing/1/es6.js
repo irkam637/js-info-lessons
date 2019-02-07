@@ -224,12 +224,19 @@ boxes6.forEach(el => el.style.backgroundColor = 'blue');
 
 const child = [15, 19, 18, 11, 21, 23];
 
-const isChild = child.map(function(el) {
-		return el >= 19;
-});
-console.log(isChild);
-console.log(isChild.indexOf(true));
-console.log(child[isChild.indexOf(true)]);
+
+
+=======
+// const isChild = child.map(function(el) {
+// 		return el >= 19;
+// });
+// console.log(isChild);
+// console.log(isChild.indexOf(true));
+// console.log(child[isChild.indexOf(true)]);
+
+// ES6
+
+console.log(child.findIndex(cur => cur >= 19));
 
 
 }
